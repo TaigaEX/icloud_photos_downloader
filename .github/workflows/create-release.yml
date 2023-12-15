@@ -113,5 +113,3 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           artifacts: "dist/*"
-          body: ${{ needs.get_version.outputs.icloudpd_changelog }}
-
